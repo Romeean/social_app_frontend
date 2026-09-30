@@ -1,0 +1,46 @@
+:root {
+  --purple-950: #321545;
+  --purple-800: #4a2166;
+  --purple-700: #60317d;
+  --purple-600: #744590;
+  --purple-200: #e5d8ed;
+  --purple-100: #f0e8f4;
+  --purple-50: #f8f4fa;
+}
+
+button:hover { color: var(--purple-700); }
+:focus-visible { outline-color: var(--purple-700); }
+::selection { background: var(--purple-200); }
+.brand > span:last-child { color: var(--purple-700); }
+.brand-icon { background: var(--purple-950); }
+.primary { background: var(--purple-800); }
+.primary:hover { background: var(--purple-950); }
+nav .active { background: var(--purple-100); color: var(--purple-800); }
+nav i { background: var(--purple-700); }
+.header-leaf { border-color: var(--purple-200); color: var(--purple-700); }
+.welcome { background: #f1eaf5; border-color: var(--purple-200); }
+.welcome h2 span, .welcome .eyebrow { color: var(--purple-700); }
+.art i { border-color: #c3a9d3; }
+.art > span { color: #71428a; }
+.art b { background: #d5c0df; }
+.composer-start > svg { color: var(--purple-600); }
+.composer-bottom button, .composer-bottom svg { color: var(--purple-700); }
+.tabs .selected { color: var(--purple-800); border-color: var(--purple-700); }
+.topics button { border-color: #e7ddec; color: #826d8e; background: var(--purple-50); }
+.topics .selected { background: var(--purple-100); border-color: var(--purple-200); color: var(--purple-800); }
+.badge { background: var(--purple-100); color: var(--purple-700); }
+.post-actions button { color: #816b8e; }
+.post-actions .liked { color: var(--purple-800); }
+.liked svg { fill: #e9dced; }
+.search { background: #f2edf5; border-color: var(--purple-200); color: var(--purple-700); }
+.side-card h2 > span, .trending > span:last-child { color: var(--purple-600); }
+.follow { background: var(--purple-50); border-color: var(--purple-200); color: var(--purple-700); }
+.follow[aria-pressed=true] { background: var(--purple-100); }
+.trending > span:first-child { color: #a38eae; }
+.about { background: #f1eaf5; border-color: var(--purple-200); }
+.about .eyebrow { color: var(--purple-700); }
+.about p, .about i { color: #806c8d; }
+.about i { background: #b99acb; }
+.cover { background: #eee5f2; color: #755888; }
+.stats b, .comment-tools button { color: var(--purple-800); }
+.avatar.sage { background: #e9dff0; color: var(--purple-800); }
